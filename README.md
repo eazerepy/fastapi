@@ -1,2 +1,7 @@
 This is a fastapi backend
-Dont forget to initialize .env file on the api folder
+create .env file on the api folder
+add AUTH_SECRET_KEY =  ****
+    AUTH_ALGORITHM =  **** 
+    API_URL = http://localhost:3000
+
+then run using fastapi run main.py

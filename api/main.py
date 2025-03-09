@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routers import auth, workouts, tries, routines, aiagents
+from .routers import auth, aiagents
 
 from .database import Base, engine
 
@@ -22,8 +22,5 @@ app.add_middleware(
 def health_check():
     return "Health check complete"
 
-# app.include_router(auth.router)
-app.include_router(workouts.router)
-app.include_router(routines.router)
-app.include_router(tries.router)
+app.include_router(auth.router)
 app.include_router(aiagents.router)

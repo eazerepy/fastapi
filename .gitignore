@@ -6,3 +6,6 @@
 /myenv
 .env
 **/__pycache__/
+
+
+**/workout_app.db

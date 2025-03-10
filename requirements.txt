@@ -21,3 +21,6 @@ starlette
 typing_extensions
 uvicorn
 python-dotenv
+requests
+openai
+web3

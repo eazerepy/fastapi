@@ -1,15 +1,9 @@
-This is a fastapi backend
-create .env file on the api folder
+# eazepy
 
-add 
+this is backend application of eazepy project which is a trading agent for sonic blockchain
 
-    AUTH_SECRET_KEY =  ***
+## run
 
-    AUTH_ALGORITHM =  **** 
-    
-    
-    API_URL = http://localhost:3000
-
-Run using 
-
-    fastapi run main.py
+```bash
+fastapi run main.py
+```

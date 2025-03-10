@@ -120,7 +120,11 @@ def process_response(response: AgentResponse, private_key: Optional[str] = None)
             }
 
         case _:
-            print(f"Unknown action: {response.action}")
+            return {
+                "status": "error",
+                "action": Action.CHAT,
+                "result": "I don't understand your request, can you please be more specific?",
+            }
 
 
 class Agent:

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, Table, Text, DateTime, func
+from sqlalchemy import Column, Integer, String, ForeignKey, Text, DateTime, func
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.mutable import MutableList
 from sqlalchemy import JSON

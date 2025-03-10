@@ -2,3 +2,5 @@
 /api/workout_app.db
 /api/__pycache__/
 /api/routers/__pycache__/
+
+.env
